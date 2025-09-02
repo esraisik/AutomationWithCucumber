@@ -16,7 +16,6 @@ Feature: US1001 Testotomasyonu phone arama testi
 
 
     Scenario: TC03  Kullanici testotomasyonu sitesinde java bulamamalı
-      Given kullanici testotomasyonu anasayfaya gider
       When arama kutusuna java yazip aratir
       Then arama sonucunda urun bulunamagini test eder
 
